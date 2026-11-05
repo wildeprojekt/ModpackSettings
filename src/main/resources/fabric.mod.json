@@ -15,7 +15,8 @@
 	"environment": "client",
 	"entrypoints": {
 		"client": [
-			"org.wildeprojekt.modpacksettings.client.ModpackSettingsClient"
+			"org.wildeprojekt.modpacksettings.client.ModpackSettingsClient",
+			"org.wildeprojekt.modpacksettings.client.ResourcePackKey"
 		],
         "preLaunch": [
             "org.wildeprojekt.modpacksettings.ModpackSettingsPrelaunch"
