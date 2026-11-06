@@ -14,7 +14,7 @@ import org.lwjgl.glfw.GLFW;
 public class ResourcePackKey implements ClientModInitializer {
 
     private static final KeyBinding RP_KEY = new KeyBinding(
-            "key.rpkey", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_L, "category.rpkey"
+            "key.rpkey", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_J, "category.rpkey"
     );
 
     public void onInitializeClient() {
